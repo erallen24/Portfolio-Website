@@ -1,8 +1,14 @@
-@import "./home.scss";
-@import "./about.scss";
-@import "./resume.scss";
-@import "./projects.scss";
-@import "./testimonial.scss";
-@import "./contact.scss";
+@import "./reset";
+@import "./fonts";
+@import "./typography";
+
+@import "./sidebar";
+
+@import "./home";
+@import "./about";
+@import "./resume";
+@import "./projects";
+@import "./testimonial";
+@import "./contact";
 
 
