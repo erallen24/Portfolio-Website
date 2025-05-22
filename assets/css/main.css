@@ -16,12 +16,16 @@ p {
   font-optical-sizing: auto;
 }
 
+#sidebar {
+  background: rgb(53, 150, 127);
+}
+
 #home {
   background: rgb(93, 93, 93);
 }
 
 #about {
-  background: rgb(53, 150, 127);
+  background: rgb(93, 93, 93);
 }
 
 #resume {
@@ -29,13 +33,9 @@ p {
 }
 
 #projects {
-  background: rgb(53, 150, 127);
-}
-
-#testimonial {
   background: rgb(93, 93, 93);
 }
 
 #contact {
-  background: rgb(53, 150, 127);
+  background: rgb(93, 93, 93);
 }/*# sourceMappingURL=main.css.map */
