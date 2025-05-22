@@ -16,26 +16,34 @@ p {
   font-optical-sizing: auto;
 }
 
+body {
+  background: #0f0f0f;
+}
+
+* {
+  color: #EAEAEA;
+}
+
 #sidebar {
-  background: rgb(53, 150, 127);
+  background: #00D1B2;
 }
 
 #home {
-  background: rgb(93, 93, 93);
+  background: #0B1E3F;
 }
 
 #about {
-  background: rgb(93, 93, 93);
+  background: #0B1E3F;
 }
 
 #resume {
-  background: rgb(93, 93, 93);
+  background: #0B1E3F;
 }
 
 #projects {
-  background: rgb(93, 93, 93);
+  background: #0B1E3F;
 }
 
 #contact {
-  background: rgb(93, 93, 93);
+  background: #0B1E3F;
 }/*# sourceMappingURL=main.css.map */
