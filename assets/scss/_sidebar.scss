@@ -6,8 +6,6 @@
     display: flex;
     flex-direction: column;
     
-    
-
     .logo {
         height: 20%;
         padding-top: 62px;
@@ -16,8 +14,9 @@
         .outer {
             background: $primary;
             border-radius: 50%;
+            border: 5px solid $accent;
+            
         }
-        
     }
 
     nav {
@@ -34,9 +33,7 @@
             li {
                 position: relative;
                 margin-bottom: 35px;
-                 
-               
-
+                
                 a {
                      &:hover {
                         i {
@@ -63,6 +60,7 @@
                     padding: 7px 13px;
                     background: rgba($primary, 0.75);
                     border-radius: 6px;
+                    border: 2px solid $accent;
                     opacity: 0;
                     transition: all 0.3s;
                 }
@@ -77,13 +75,13 @@
         align-items: flex-end;
         padding-bottom: 62px;
         justify-content: center;
-        
 
         .outer {
             width: 24px;
             height: 35px;
             background-color: $primary;
             border-radius: 24px;
+            border: 1px solid $accent;
 
             .inner {
                 position: relative;
@@ -106,7 +104,6 @@
                     border-radius: 50%;
                 }
             }
-
         }
     }
 }

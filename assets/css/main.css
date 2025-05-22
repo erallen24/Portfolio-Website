@@ -44,6 +44,7 @@ main {
 #sidebar .logo .outer {
   background: #0B1E3F;
   border-radius: 50%;
+  border: 5px solid #00D1B2;
 }
 #sidebar nav {
   height: 60%;
@@ -79,6 +80,7 @@ main {
   padding: 7px 13px;
   background: rgba(11, 30, 63, 0.75);
   border-radius: 6px;
+  border: 2px solid #00D1B2;
   opacity: 0;
   transition: all 0.3s;
 }
@@ -94,6 +96,7 @@ main {
   height: 35px;
   background-color: #0B1E3F;
   border-radius: 24px;
+  border: 1px solid #00D1B2;
 }
 #sidebar .toggle-mode .outer .inner {
   position: relative;
