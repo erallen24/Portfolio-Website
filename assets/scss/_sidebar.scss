@@ -45,6 +45,22 @@
                         }
                     }
 
+                    &.active {
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50%;
+                            border: 1px solid $accent;
+                            background: $primary;
+                            opacity: .40;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+                    }
+
                     i {
                         
                         font-size: 30px;
